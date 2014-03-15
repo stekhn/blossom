@@ -12,8 +12,8 @@ Setup
 -----
 
 1. Get and install OSM Bright. You can use step 3 of [these instructions](http://mapbox.com/tilemill/docs/guides/osm-bright-mac-quickstart/) if you like.
-2. Replace `base.mss`, `labels.mss`, `palette.mss`, and `roads.mss` with the Pandonia versions of those files.
-3. Replace the `img` and `res` directories with the Pandonia versions.
+2. Replace `base.mss`, `labels.mss`, `palette.mss`, and `roads.mss` with the Blossom versions of those files.
+3. Replace the `img` and `res` directories with the Blossom versions.
 4. Open TileMill and enjoy.
 
 
