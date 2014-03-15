@@ -1,7 +1,7 @@
 Blossom for OSM
 ==========
 
-![screenshot](https://github.com/stekhn/blossom/blob/master/img/blossom-munich.png)
+![screenshot](https://raw.github.com/stekhn/blossom/master/img/blossom-munich.jpg)
 
 Blossom is a set of styles for [OpenStreetMaps][]. It's based on
 [OSM Bright][] and [Pandonia][]. The styles are all written in the beaufiful [Carto][] language. It can be used and edited in [TileMill][] as you please.
