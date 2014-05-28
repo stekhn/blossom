@@ -114,8 +114,8 @@ come in as well.
   [tunnel=1] { line-dasharray: 1,3; }
   /* -- widths -- */
   [zoom=11] {
-    [stylegroup='motorway'] { line-width: @rdz11_maj + 2; }
-    [stylegroup='mainroad'] { line-width: @rdz11_med + 1.6; }
+    [stylegroup='motorway'] { line-width: @rdz11_maj + 0.7; }
+    [stylegroup='mainroad'] { line-width: @rdz11_med + 0.7; }
     [stylegroup='minorroad']{ line-width: @rdz11_min; }
     /* No minor bridges yet */
     [stylegroup='service']  { line-width: 0; }
@@ -123,8 +123,8 @@ come in as well.
     [stylegroup='railway']  { line-width: 0; }
   }
   [zoom=12] {
-    [stylegroup='motorway'] { line-width: @rdz12_maj + 2; }
-    [stylegroup='mainroad'] { line-width: @rdz12_med + 2; }
+    [stylegroup='motorway'] { line-width: @rdz12_maj + 1; }
+    [stylegroup='mainroad'] { line-width: @rdz12_med + 1; }
     [stylegroup='minorroad']{ line-width: @rdz12_min; }
     /* No minor bridges yet */
     [stylegroup='service']  { line-width: 0; }
@@ -132,8 +132,8 @@ come in as well.
     [stylegroup='railway']  { line-width: 0; }
   }
   [zoom=13] {
-    [stylegroup='motorway'] { line-width: @rdz13_maj + 2; }
-    [stylegroup='mainroad'] { line-width: @rdz13_med + 2; }
+    [stylegroup='motorway'] { line-width: @rdz13_maj + 1.2; }
+    [stylegroup='mainroad'] { line-width: @rdz13_med + 1.2; }
     [stylegroup='minorroad']{ line-width: @rdz13_min; }
     /* No minor bridges yet */
     [stylegroup='service']  { line-width: 0; }

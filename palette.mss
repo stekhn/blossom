@@ -1,5 +1,5 @@
 /* ****************************************************************** */
-/* Blossom – a light map style fo                                     */
+/* Blossom – a light map style                                        */
 /* ****************************************************************** */
 
 /* For basic style customization you can simply edit the colors and
@@ -72,7 +72,7 @@ Map { font-directory: url(./fonts); }
 @stream:            @water; //#dcecfb;
 @canal:             @stream;
 
-@road:              #ecebe6;
+@road:              #ffffff;
 @motorway:          #fff6be;
 
 /* ================================================================== */
@@ -88,30 +88,30 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@standard_line:     @road * 0.95; // @land * 0.92;
-@standard_fill:     @road; // @bluish_white;
-@standard_case:     @road * 0.95; // @land * 0.88
+@standard_line:     @road * 0.85;
+@standard_fill:     @road;
+@standard_case:     @road * 0.85;
 @standard_tunnel_fill: #fcfcfb;
 
-@motorway_line:     @motorway * 0.95; // @land * 0.85;
+@motorway_line:     @motorway * 0.7;
 @motorway_fill:     @motorway;
-@motorway_case:     @motorway * 0.95; // @land * 0.85;
-@motorway_tunnel_fill: lighten(@motorway, 20%); // #fcf8e9;
+@motorway_case:     @motorway * 0.7;
+@motorway_tunnel_fill: lighten(@motorway, 20%);
 
 @trunk_line:        @motorway_line;
 @trunk_fill:        @motorway;// @motorway_fill;
 @trunk_case:        @motorway_case;
 @trunk_tunnel_fill: @motorway_tunnel_fill;
 
-@primary_line:      @motorway_line; // @land * 0.92;
+@primary_line:      @motorway_line;
 @primary_fill:      @motorway; //@standard_fill;
 @primary_case:      @motorway_case;
 @primary_tunnel_fill: @standard_tunnel_fill;
 
-@secondary_line:    @road * 0.95; // @primary_line;
+@secondary_line:    @road * 0.8; // @primary_line;
 @secondary_fill:    @road; // @standard_fill;
-@secondary_case:    @road * 0.95; // @motorway_case;
-@secondary_tunnel_fill:@standard_tunnel_fill;
+@secondary_case:    @road * 0.8; // @motorway_case;
+@secondary_tunnel_fill: @standard_tunnel_fill;
 
 /* We aren't using cases for pedestrian ways, and we don't need
  * lines because they aren't visible at lower zoom levels. */
